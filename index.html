@@ -13,8 +13,8 @@
       --ink: #272523;
       --muted: #6d665f;
       --line: rgba(39, 37, 35, 0.12);
-      --paper: rgba(255, 252, 245, 0.86);
-      --paper-strong: #fffaf0;
+     --paper: rgba(216,253,241, 0.25);
+--paper-strong: #d8fdf1;
       --green: #4f6f52;
       --brick: #a5533a;
       --blue: #4b657f;
@@ -28,21 +28,21 @@
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Noto Sans SC", "Microsoft YaHei", sans-serif;
       color: var(--ink);
       background:
-         linear-gradient(90deg, rgba(79, 111, 82, 0.06) 1px, transparent 1px),
-         linear-gradient(rgba(79, 111, 82, 0.05) 1px, transparent 1px),
-         #6F00D2;
-      background-size: 34px 34px, 34px 34px, auto;
+    linear-gradient(90deg, rgba(79, 111, 82, 0.10) 1px, transparent 1px),
+    linear-gradient(rgba(79, 111, 82, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, #F1E1FF 0%, #CECEFF 50%, #D9FFFF 100%);
+  background-size: 34px 34px, 34px 34px, auto;
     }
 
     body::before {
       content: "";
-      position: fixed;
-      inset: 0;
-      pointer-events: none;
-      background:
-        linear-gradient(120deg, rgba(165, 83, 58, 0.13), transparent 30%),
-        linear-gradient(300deg, rgba(75, 101, 127, 0.14), transparent 34%);
-      opacity: 0.9;
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(120deg, rgba(226, 211, 255, 0.13), transparent 30%),
+    linear-gradient(300deg, rgba(160, 190, 255, 0.14), transparent 34%);
+  opacity: 0.9;
     }
 
     main {
